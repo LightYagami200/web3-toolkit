@@ -1,6 +1,6 @@
 {
   "name": "solana-web3-toolkit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/index.js",
   "repository": "https://github.com/LightYagami200/web3-toolkit",
   "author": "Light Yagami <its_lightyagami@icloud.com>",

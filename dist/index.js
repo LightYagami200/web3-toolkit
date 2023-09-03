@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 "use strict";
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -14,7 +15,7 @@ console.log(figlet_1.default.textSync(constants_1.APP_NAME));
 program
     .version("0.0.1")
     .description("A toolkit for solana web3 development")
-    .option("-n, --nfts <value>", "List NFTs for a given candy machine")
+    .option("-n, --nfts <value>", "List NFTs for a given creator address")
     .parse(process.argv);
 const options = program.opts();
 // Main
