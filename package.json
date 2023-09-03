@@ -1,0 +1,26 @@
+{
+  "name": "web3-toolkit",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "repository": "https://github.com/LightYagami200/web3-toolkit",
+  "author": "Light Yagami <its_lightyagami@icloud.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.78.4",
+    "axios": "^1.5.0",
+    "bs58": "^5.0.0",
+    "commander": "^11.0.0",
+    "figlet": "^1.6.0"
+  },
+  "bin": {
+    "web3": "./dist/index.js"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.6",
+    "@types/node": "^20.5.9",
+    "typescript": "^5.2.2"
+  }
+}
