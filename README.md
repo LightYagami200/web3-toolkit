@@ -7,13 +7,19 @@ This is a command-line interface (CLI) toolkit for Solana Web3 development. It p
 To install the toolkit, you need to have Node.js and npm installed on your machine. You can install the toolkit globally using npm:
 
 ```bash
-npm install -g web3-toolkit
+npm install -g solana-web3-toolkit
 ```
 
 ## Usage
 
+### Help
+
+```bash
+web3 --help
+```
+
 ### Fetch all NFTS by a creator
 
 ```bash
-web3-toolkit --nfts <creator_address>
+web3 --nfts <creator_address>
 ```
